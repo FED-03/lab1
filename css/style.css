@@ -71,10 +71,12 @@ header {
     color: var(--white);
     font-family: Roboto;
     font-size: 32px;
+    margin: auto;
 }
 
 .mainbg {
-    background-color: var(--background3)
+    background-color: var(--background3);
+    padding: 10px;
 }
 
 h2 {
@@ -82,13 +84,12 @@ h2 {
 }
 
 h3 {
-    color: var(--white);
+    color: var(--blue);
     font-family: Roboto;
-    font-size: 32px;
 }
 
 
-h4 {
+.rabota {
     color: var(--blue);
     font-family: Roboto;
     font-size: 20px;
@@ -123,8 +124,6 @@ h4 {
     font-family: Roboto;
     font-size: 16px;
 }
-
-
 
 .company {
     color: var(--blue);
