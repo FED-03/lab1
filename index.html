@@ -7,26 +7,26 @@
     <title>Сахара груп</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/text.css">
-
 </head>
 
 <body>
     <main>
         <header>
-            <a href=""><img src="Logo.png" alt="На главную"></a>
+            <a href=""><img class="knopki" src="Logo.png" alt="На главную"></a>
         </header>
-        <h1 class="main">
-            <p> Аренда
-                <br>специализированных
-                <br>насосных станций
-            </p>
-        </h1>
-        <p class="text">для водопонижения и водоотведения</p>
-        <p> <img src="Bump 1.png"> </p>
-        <button class="button">
-            <p>Заказать звонок</p>
-        </button>
+        <div class="mainbg">
+            <h1 class="main">
+                <p> Аренда
+                    <br>специализированных
+                    <br>насосных станций
+                </p>
+            </h1>
+            <p class="text">для водопонижения и водоотведения</p>
+            <p> <img src=""> </p>
+            <button class="button">
+                <p>Заказать звонок</p>
+            </button>
+        </div>
         <saction>
             <div>
                 <p class="info">
@@ -47,9 +47,10 @@
         </saction>
 
         <saction>
-            <h2 class="company"> О компании </h2>
-            <hr width="200px">
-            <div>
+            <div class="about2">
+                <h2 class="company"> О компании </h2>
+                <hr width="200px">
+
                 <p class="company1">
                     Уже более 8 лет специалисты компании Сахара Груп решают задачи любой сложности
                     как в сфере водоотведения при проведении бестраншейного ремонта и строительства наружных сетей
@@ -67,13 +68,13 @@
             </div>
         </saction>
         <div class="successes">
-            <p> <img src="Info-1.png">
+            <p> <img src="">
                 <br> Успешно реализованных проектов
             </p>
-            <p><img src="Info-2.png">
+            <p><img src="">
                 <br> Насосных установок различной мощности
             </p>
-            <p> <img src="Info-3.png">
+            <p> <img src="">
                 <br> Лет на рынке водопонижения
             </p>
         </div>
@@ -81,10 +82,12 @@
             <img src="">
         </p>
 
-        <img src="bba_pumps_electrically_driven_portable_pumps 1.jpg">
+        <img src="">
 
         <saction>
-            <h2>Наше оборудование</h2>
+            <h2 class="company">Наше оборудование</h2>
+            <hr width="200px">
+
             <div class="knopki">
 
                 <button class="button">
@@ -121,8 +124,11 @@
                     даже в
                     густонаселенных районах крупных городов.
                 </p>
-                <img src="Снимок экрана 2023-07-19 в 14.47 1.jpg">
-
+                <img src="">
+        </saction>
+        </div>
+        <saction>
+            <div class="bginfo">
                 <h3> Наши преимущества </h3>
                 <div class="description">
                     <h4>Работаем по всей России</h4>
@@ -130,7 +136,8 @@
                         ценим
                         время заказчика
                         и
-                        организуем доставку на объект самостоятельно вне зависимости от количества оборудования.</p>
+                        организуем доставку на объект самостоятельно вне зависимости от количества оборудования.
+                    </p>
                 </div>
                 <div class="description">
                     <h4>Лучшее в классе оборудование</h4>
@@ -152,7 +159,7 @@
                 </div>
             </div>
         </saction>
-        <saction class="background">
+        <saction>
             <div>
                 <h4>Заказчики</h4>
                 <img>
@@ -160,18 +167,20 @@
                 <img>
                 <img>
                 <img>
-                <h1 class="main">Закажите консультацию, расчет стоимости работ или выезд специалиста на объект</h1>
-                <label class="text">Имя <input type="text" required></label>
-                <br><label class="text">Название компании <input type="text" required></label>
-                <br><label class="text">Телефон * <input type="text" required></label>
-                <p class="text">
-                    Я даю свое согласие на обработку моей персональной информации в соответствии с политикой
-                    конфиденциальности
-                </p>
-                <br>
-                <button class="button">
-                    <p>Отправить запрос</p>
-                </button>
+                <div class="bginfo">
+                    <h1 class="main">Закажите консультацию, расчет стоимости работ или выезд специалиста на объект</h1>
+                    <label class="text">Имя <input type="text" required></label>
+                    <br><label class="text">Название компании <input type="text" required></label>
+                    <br><label class="text">Телефон * <input type="text" required></label>
+                    <p class="text">
+                        Я даю свое согласие на обработку моей персональной информации в соответствии с политикой
+                        конфиденциальности
+                    </p>
+                    <br>
+                    <button class="button">
+                        <p>Отправить запрос</p>
+                    </button>
+                </div>
             </div>
         </saction>
 
@@ -193,7 +202,7 @@
         </saction>
 
         <saction>
-            <div>
+            <div class="bginfo">
                 <h1 class="main">
                     Контакты
                 </h1>
