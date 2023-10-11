@@ -150,8 +150,8 @@ h4 {
     background-color: var(--background);
 }
 
-.description {
-    background-color: var(--White);
+.bgfn {
+    background-color: var(--background);
 }
 
 li {
