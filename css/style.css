@@ -67,69 +67,329 @@ header {
     background-color: var(--blue);
 }
 
-.main {
-    color: var(--white);
-    font-family: Roboto;
-    font-size: 32px;
-    margin: auto;
-}
+.but {}
 
-.mainbg {
+div.mainbg {
     background-color: var(--background3);
     padding: 10px;
 }
 
-h2 {
-    color: var(--blue);
-}
-
-h3 {
-    color: var(--blue);
+div.mainbg h1 {
+    color: var(--white);
     font-family: Roboto;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em
 }
 
-
-.rabota {
-    color: var(--blue);
-    font-family: Roboto;
-    font-size: 20px;
-}
-
-
-.text {
+div.mainbg p {
     color: var(--white);
     font-family: Roboto;
     font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
 }
 
-.info {
+
+div.mainbg a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--orange);
+    color: var(--white);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40em;
+    margin-right: 40em;
+}
+
+div.mainbg a:hover {
+    background-color: darkorange;
+}
+
+div.info1 {
+    padding: 10px;
+}
+
+
+div.info1 h2 {
     color: var(--blue);
-    src: Roboto;
-    font-size: 16px;
+    font-family: Roboto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em
 }
 
-.info1 {
+div.info1 h3 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em;
+}
+
+
+div.info1 p {
     color: var(--blue);
     font-family: Roboto;
     font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em
 }
 
-.button {
+
+div.info1 p a:hover {
+    color: var(--orange);
+}
+
+div.about2 {
+    background-color: var(--background2)
+}
+
+div.about2 img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+
+div.about2 h2 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: center;
+}
+
+div.about2 p {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 56ch;
+    margin: 0 auto;
+}
+
+div.successes h3 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em;
+}
+
+div.successes ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+div.hh2 h2 {
+    color: var(--blue);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+}
+
+div.knopki {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background);
+}
+
+div.knopli button {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: var(--White);
+    color: var(--blue);
+}
+
+div.knopki button:hover {
     background-color: var(--orange);
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    color: var(--White);
+}
+
+div.info2 h3 {
+    color: var(--blue);
+    font-family: Roboto;
+    margin: 0 auto;
+}
+
+div.info2 p {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 56ch;
+    margin: 0 auto;
+
+}
+
+div.rabota {
+    background-color: var(--blue);
+    padding: 20px;
+}
+
+div.rabota h2 {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: center;
+}
+
+div.rabota ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+div.rabota li {
+    width: 30%;
+    border: 1px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: var(--background);
+}
+
+div.rabota h3 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 17px;
+    margin: 0 auto;
+}
+
+div.rabota p {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 56ch;
+    margin: 0 auto;
+}
+
+div.customer h2 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: center;
+}
+
+div.customer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+div.bginfo {
+    background-color: var(--background4);
+    padding: 10px;
+}
+
+div.bginfo h2 {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em
+}
+
+div.bginfo form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.bginfo label {
+    display: block;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+div.bginfo p {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 15px;
+}
+
+div.bginfo form input[type="text"],
+form input[type="email"] {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+div.about h3 {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 17px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.about p {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    margin: 0.2rem;
+}
+
+
+div.bginfo form button {
+    background-color: var(--orange);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     border: var(--orange);
     color: var(--White, #FFF);
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
+    margin: 0 auto;
+    display: block;
+    padding: 12px 40px;
 }
 
-.company {
+div.location h2 {
     color: var(--blue);
-    text-align: center;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+
+div.location ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+}
+
+div.about {
+    background-color: var(--orange);
+}
+
+.rabota {
+    color: var(--blue);
+    font-family: Roboto;
+    font-size: 20px;
 }
 
 .company1 {
@@ -144,33 +404,8 @@ h3 {
     font-size: 16px;
 }
 
-
-.knopki {
-    background-color: var(--background);
-}
-
-.bgfn {
-    background-color: var(--background);
-}
-
 li {
     color: var(--blue);
     font-family: Roboto;
     font-size: 17px;
-}
-
-.about {
-    background-color: var(--orange);
-}
-
-.about2 {
-    background-color: var(--background2)
-}
-
-hr {
-    color: var(--orange);
-}
-
-.bginfo {
-    background-color: var(--background4);
 }
